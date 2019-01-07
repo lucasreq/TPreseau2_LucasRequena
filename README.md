@@ -147,6 +147,12 @@ https://github.com/lucasreq/TPreseau2_LucasRequena/blob/master/Images/II.%20Fire
 grâce a la commande netstat /all nous obtenons l'IP de l'adresse DHCP
 https://github.com/lucasreq/TPreseau2_LucasRequena/blob/master/Images/III.Manipulation%20d'autres%20outils/DHCP-1.JPG
 
+pour avoir une nouvelle adresse ip il faut procéder a plusieurs lignes de commandes dans le cmd:
+* ```ipconfig /flushdns``` cette commande reinitialise le contenu du cache DNS
+* ```ipconfig /release```  cette commande libere la configuration DHCP et libere la configuration d’adresse IP de toutes les cartes réseaux
+* ```ipconfig /renew```  cette commande renouvelle la configuration DHCP de toutes les cartes…
+C’est à dire qu’elle renouvelle sa connexion au serveur DHCP
+
 ### 2. DNS
 En utilisant ```nslookup``` sur les deux exemples "google.com" et "ynov.com"
 j'obtiens ceci:
