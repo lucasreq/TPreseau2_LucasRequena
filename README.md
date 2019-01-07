@@ -40,7 +40,7 @@ Entouré en rouge l’adresse de la
 passerelle
 
  
-(image: I.1)
+https://github.com/lucasreq/TPreseau2_LucasRequena/blob/master/Images/I.%20Exploration%20locale%20en%20solo/I.1.png
  
 
 En graphique (sous Windows 10):
@@ -60,7 +60,7 @@ pt. 1
 Je suis rentré sur la gestion de
 partage et réseaux et j’ai accédé aux propriétés du réseau.
 
-(image: I.2)
+https://github.com/lucasreq/TPreseau2_LucasRequena/blob/master/Images/I.%20Exploration%20locale%20en%20solo/I.2.png
 
 #### B. nmap
 
@@ -68,14 +68,13 @@ Grace a la commande nmap -sn -PE
 
 Nous obtenons cela :
 
-(image: I.3)
-
+https://github.com/lucasreq/TPreseau2_LucasRequena/blob/master/Images/I.%20Exploration%20locale%20en%20solo/I.3.png
  
 #### C. Modification d'adresse IP
 
-(image: I.4)
+https://github.com/lucasreq/TPreseau2_LucasRequena/blob/master/Images/I.%20Exploration%20locale%20en%20solo/I.4.png
 
-(image: I.5)
+https://github.com/lucasreq/TPreseau2_LucasRequena/blob/master/Images/I.%20Exploration%20locale%20en%20solo/I.5.png
 
 Après le changement de gateway je n'ai eu aucuns problemes pour aller sur internet
 
@@ -92,7 +91,7 @@ Windows avec fonctions avancées de sécurité**.
 3. Dans le menu de gauche, cliquer sur « **Règles
 de trafic entrant** » :
 
-(image: II.1)
+https://github.com/lucasreq/TPreseau2_LucasRequena/blob/master/Images/II.%20Firewall/II.1.png
 
 4.Dans le menu de droite, cliquer sur « **Nouvelle règle** » .
 
@@ -100,7 +99,7 @@ de trafic entrant** » :
 règle, choisir « **Personnalisée** »
 et faire **Suivant**.
 
-(image: II.2)
+https://github.com/lucasreq/TPreseau2_LucasRequena/blob/master/Images/II.%20Firewall/II.2.png
 
 
 6.Laisser « **Tous les
@@ -111,7 +110,7 @@ de protocole » pour sélectionner « **ICMPv4** » qui correspond au ping
 (Internet Control Message Protocol). Ne pas changer les autres options de cet
 écran.
 
- (image: II.3)
+https://github.com/lucasreq/TPreseau2_LucasRequena/blob/master/Images/II.%20Firewall/II.3.png
 
 8.Dans la partie Etendue, laisser « **Toute
 adresse IP** » dans les deux champs s’il n’y a pas de
@@ -124,14 +123,14 @@ d’IP ou les sous-réseaux autorisés à pinguer la machine.
 connexion** » pour répondre aux requêtes ping depuis un
 autre poste.
  
- (image: II.4)
+https://github.com/lucasreq/TPreseau2_LucasRequena/blob/master/Images/II.%20Firewall/II.4.png
 
 10. Définir sur quels réseaux cette nouvelle règle doit être
 appliquée : **ne cocher que Domaine** pour éviter
 que le ping soit autorisé sur une autre connexion que celle de l’entreprise (ce
 qui ne devrait pas changer pour un serveur).
 
-(image: II.5)
+https://github.com/lucasreq/TPreseau2_LucasRequena/blob/master/Images/II.%20Firewall/II.5.png
  
 11. Donner un **nom** à cette règle
 firewall et cliquer sur **Terminer** pour la
@@ -140,21 +139,20 @@ valider.
 12. Le ping est
 immédiatement fonctionnel depuis un autre PC du réseau
 
-(image: II.6)
+https://github.com/lucasreq/TPreseau2_LucasRequena/blob/master/Images/II.%20Firewall/II.6.png
 
 ## III. Manipulations d'autres outils/protocoles côté client
 
 ### 1. DHCP
 grâce a la commande netstat /all nous obtenons l'IP de l'adresse DHCP
-
-(Image: DHCP-1)
+https://github.com/lucasreq/TPreseau2_LucasRequena/blob/master/Images/III.Manipulation%20d'autres%20outils/DHCP-1.JPG
 
 ### 2. DNS
 En utilisant ```nslookup``` sur les deux exemples "google.com" et "ynov.com"
 j'obtiens ceci:
-(image: DSN-1)
+https://github.com/lucasreq/TPreseau2_LucasRequena/blob/master/Images/III.Manipulation%20d'autres%20outils/DNS-%201.png
 
 Ensuite pour faire un reverse lookup sur les exemples j'ai simplement réutiliser 
 nmap car grâce a une adresse on peut trouver un nom de domaine et j'ai obtenu ceci:
-(image: DNS-2)
+https://github.com/lucasreq/TPreseau2_LucasRequena/blob/master/Images/III.Manipulation%20d'autres%20outils/DNS-2.png
  
