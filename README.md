@@ -62,9 +62,7 @@ partage et réseaux et j’ai accédé aux propriétés du réseau.
 
  
 
-#### B. 
-
-nmap
+#### B. nmap
 
 Grace a la commande nmap -sn -PE 
 
@@ -76,8 +74,7 @@ J’ai utilisé cette adresse :
 
  
 
-#### C. Modification d'adresse IP -
-pt. 2
+#### C. Modification d'adresse IP
 
 Aucun problèmes pour aller sur
 internet
